@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>about on Hello Friend NG</title>
+    <link>localhost/tags/about/</link>
+    <description>Recent content in about on Hello Friend NG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 13 Jul 2021 22:08:45 +0200</lastBuildDate><atom:link href="localhost/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ABOUT</title>
+      <link>localhost/posts/about/</link>
+      <pubDate>Tue, 13 Jul 2021 22:08:45 +0200</pubDate>
+      
+      <guid>localhost/posts/about/</guid>
+      <description>Hey there 👋🧑 I&amp;rsquo;m Steffen, a 20 year old CS Student at TUM
+Working part-time at Rubean
+My main skillset consists of:
+ Java (Tutor in the courses PGDP &amp;amp; EIDI at TUM WS2020) C &amp;amp; Assembly (x86, SIMD) C# /.NET shell scripting deeper knowledge of GNU/Linux systems DirectX, OpenGL, bits of Vulkan GLSL, HLSL Unity Engine basics of Go &amp;amp; Python  Btw, an old blog of mine can be found here.</description>
+    </item>
+    
+  </channel>
+</rss>
