@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>me on Steffen Florschütz</title>
+    <link>/tags/me/</link>
+    <description>Recent content in me on Steffen Florschütz</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 13 Jul 2021 22:08:45 +0200</lastBuildDate><atom:link href="/tags/me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hey there!</title>
+      <link>/about/</link>
+      <pubDate>Tue, 13 Jul 2021 22:08:45 +0200</pubDate>
+      
+      <guid>/about/</guid>
+      <description>I&amp;rsquo;m Steffen, a 20 year old CS Student at TUM.
+Helping out at Rubean.
+An old blog of mine can be found here.
+ ✨Skillset  Java (Tutor in the courses PGDP &amp;amp; EIDI at TUM WS2020) C &amp;amp; Assembly (x86, SIMD) DirectX, OpenGL, bits of Vulkan GLSL, HLSL Unity Engine C# /.NET shell scripting deeper knowledge of GNU/Linux systems basics of Go &amp;amp; Python  ✨Facts  my music taste is all over the place yes, i genuinely enjoy low-level programming big fan of computer graphics in a relationship with the best girl on 🌍 average coffee enjoyer skyrim belongs neither to the nords, nor the imperials love memes and internet culture  ✨Hardware Tier List These are my top-notch *cough daily drivers, sorted by use</description>
+    </item>
+    
+  </channel>
+</rss>
