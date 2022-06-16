@@ -4,11 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="author" content="Steffen Florschütz " />
     <meta name="description" content="Developer" />
-    <title>Steffen Florschütz — /home/</title>
+    <title>/home/steffenf</title>
+    <style>
+      @font-face {
+        font-family: "FuturaNDCondensed";
+        src: url("./assets/futura-nd-cn-medium.ttf") format("truetype");
+      }
+      html {
+        background-image: radial-gradient(rgb(10,10,10), black);
+        min-height: 100%;
+        cursor: url("./assets/cursor.png"), auto;
+      }
+      body {
+        font-family: "FuturaNDCondensed";
+      }
+      a {
+        color: white;
+        text-shadow: 1px 3px 3px black;
+        text-decoration: none;
+        font-size: xx-large;
+        cursor: url("./assets/cursor.png"), auto;
+      }
+    </style>
   </head>
-  <body
-    style="
-      background-image: url('https://drive.google.com/uc?export=download&amp;id=1YNNuEQg9xABH1MrnjG0Q4Hoix74McZ9p');
-    "
-  ></body>
+  <body>
+    <div>
+      <div style="float:left; bottom: 15%; left: 10%; position: fixed;">
+        <canvas id="canvas"></canvas>
+      </div>
+      <div style="float:left; bottom: 20%; right: 10%; position: fixed; ">
+        <a href="https://github.com/N0r1uno" target="_blank">Continue</a><br />
+        <a href="mailto: steffen.florschuetz@tum.de" >New</a><br />
+        <a>Load</a><br />
+        <a>Credits</a><br />
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Quit</a>
+      </div>
+    </div>
+    <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+    <script type="importmap"> { "imports": { "three": "https://unpkg.com/three@0.141.0/build/three.module.js" } }</script>
+    <script src="js/logo.js" type="module"></script>
+  </body>
 </html>
