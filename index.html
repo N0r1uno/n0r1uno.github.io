@@ -30,18 +30,29 @@
   <body>
     <div>
       <div style="float:left; bottom: 15%; left: 10%; position: fixed;">
-        <canvas id="canvas"></canvas>
+        <canvas id="canvas" onclick="introAudio()"></canvas>
       </div>
       <div style="float:left; bottom: 20%; right: 10%; position: fixed; ">
-        <a href="https://github.com/N0r1uno" target="_blank">Continue</a><br />
-        <a href="mailto: steffen.florschuetz@tum.de" >New</a><br />
-        <a>Load</a><br />
-        <a>Credits</a><br />
-        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Quit</a>
+        <a id="continue" onclick="newAudio()" onmouseenter="focusAudio(1)" href="https://github.com/N0r1uno" target="_blank">Continue</a><br />
+        <a id="new" onclick="newAudio()" onmouseenter="focusAudio(2)" href="mailto: steffen.florschuetz@tum.de" >New</a><br />
+        <a id="load" onclick="okAudio()" onmouseenter="focusAudio(3)" >Load</a><br />
+        <a id="credits" onclick="okAudio()" onmouseenter="focusAudio(4)" href="https://elderscrolls.bethesda.net/en/skyrim" target="_blank">Credits</a><br />
+        <a id="quit" onclick="okAudio()" onmouseenter="focusAudio(5)" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Quit</a>
       </div>
     </div>
+
+    <audio id="introAudio"> <source src="/assets/intro.opus" type="audio/ogg"> </audio> 
+    <audio preload="auto" id="newAudio"> <source src="/assets/new.opus" type="audio/ogg"> </audio> 
+    <audio preload="auto" id="okAudio"> <source src="/assets/ok.opus" type="audio/ogg"> </audio> 
+    <audio preload="auto" id="focusAudio1"> <source src="/assets/focus.opus" type="audio/ogg"> </audio> 
+    <audio preload="auto" id="focusAudio2"> <source src="/assets/focus.opus" type="audio/ogg"> </audio> 
+    <audio preload="auto" id="focusAudio3"> <source src="/assets/focus.opus" type="audio/ogg"> </audio> 
+    <audio preload="auto" id="focusAudio4"> <source src="/assets/focus.opus" type="audio/ogg"> </audio> 
+    <audio preload="auto" id="focusAudio5"> <source src="/assets/focus.opus" type="audio/ogg"> </audio> 
+
     <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
     <script type="importmap"> { "imports": { "three": "https://unpkg.com/three@0.141.0/build/three.module.js" } }</script>
     <script src="js/logo.min.js" type="module"></script>
+    <script src="js/audio.min.js"></script>
   </body>
 </html>
